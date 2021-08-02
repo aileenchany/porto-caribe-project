@@ -1,0 +1,416 @@
+/*  ----------  *****  BASE STYLES  *****  ----------  */
+body {
+  background: white;
+  color: #233059;
+  display: block;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  margin: 0px auto;
+  padding: 0;
+  width: 1200px;
+}
+h4 {
+  font-size: 18px;
+  margin: 0 auto;
+  padding: 0;
+}
+hr {
+  margin: 0 10px;
+  color: #233059;
+}
+
+/*  ----------  *****  HEADER  *****  ----------  */
+
+header {
+  background-image: url("../img/hero-image-2.png");
+  height: 328px;
+}
+h1 {
+  font-family: "Major Mono Display", sans-serif;
+  font-size: 87px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  line-height: 1em;
+  margin: 0 100px 0 300px;
+  padding-top: 70px;
+}
+h2 {
+  font-size: 12px;
+  font-weight: 400;
+  margin: 10px 350px 50px 450px;
+}
+.porto-p {
+  color: #0c9af2;
+}
+.caribe-c {
+  color: #e6ff3f;
+}
+
+/*  ----------  *****  NAVIGATION  *****  ----------  */
+
+nav {
+  background-color: #233059;
+  border-radius: 0 0 5px 5px;
+  height: 55px;
+  overflow: auto;
+}
+nav ul {
+  float: left;
+  margin-left: 200px;
+  padding: 0;
+}
+nav ul li {
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 700;
+  list-style-type: none;
+  padding: 0px 10px 0 70px;
+}
+nav ul li a {
+  color: #e6ff3f;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+nav ul li a:hover {
+  color: #0c9af2;
+  transition: all 200ms ease-in-out;
+}
+nav button {
+  background-color: #e6ff3f;
+  border: 1px solid white;
+  border-radius: 15px;
+  color: #233059;
+  float: right;
+  margin: 8px 20px 0 0;
+  outline: none;
+  padding: 10px 15px;
+}
+nav button:hover {
+  background-image: linear-gradient(to top, #a0eaf2 0%, #0c9af2 100%);
+  border: 1px solid #233059;
+  box-shadow: 1px 2px 2px rgba(230, 255, 63, 0.8);
+  transition: all 200ms ease-in-out;
+}
+
+/*  ----------  *****  WHERE TO GO?  *****  ----------  */
+/*  ----------  ***** Section  *****  ----------  */
+section {
+  display: block;
+  float: left;
+  height: 550px;
+  padding-left: 40px;
+  width: 750px;
+}
+section a {
+  text-decoration: none;
+}
+#where-to-go section h3 a {
+  color: #233059;
+  text-decoration: none;
+}
+#where-to-go section a div:hover,
+#where-to-go section img:hover,
+#where-to-go div.aside-container:hover {
+  box-shadow: 4px 4px 4px rgba(28, 61, 142, 0.6);
+  transition: all 200ms ease-in-out;
+}
+section h4,
+section p {
+  color: #233059;
+}
+section img {
+  border-radius: 5px;
+  height: 350px;
+  width: 750px;
+}
+
+section div {
+  background: #e6ff3f;
+  border-radius: 5px;
+  height: 85px;
+  margin-top: 12px;
+  margin-right: 0%;
+  padding: 10px 0 10px 20px;
+  width: 730px;
+}
+section div p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.5em;
+}
+#where-to-go {
+  height: 560px;
+  margin: 0 auto;
+  overflow: auto;
+  padding: 0;
+  width: 1200px;
+}
+/*  ----------  ***** Aside  *****  ----------  */
+aside {
+  float: left;
+  margin: 60px auto 0 20px;
+}
+aside p {
+  color: white;
+  font-size: 12px;
+  font-weight: 300;
+  margin-top: 8px;
+}
+aside ul {
+  margin: 0 auto;
+  padding: 0;
+}
+div.aside-container {
+  background: #0c9af2;
+  border-radius: 5px;
+  height: 140px;
+  margin-bottom: 25px;
+  width: 325px;
+}
+.aside-container ul li {
+  list-style-type: none;
+  padding: 0;
+}
+aside ul li div {
+  float: left;
+  padding-left: 20px;
+  padding-top: 18px;
+  width: 150px;
+}
+h5 {
+  color: #e6ff3f;
+  margin: 0 auto;
+  padding: 0;
+}
+img.aside-img {
+  border-radius: 5px;
+  float: left;
+  height: 100px;
+  margin: 20px 0 0 20px;
+  width: 120px;
+}
+
+/*  ----------  *****  WHERE TO STAY?  *****  ----------  */
+
+#where-to-stay {
+  background: #dff6f7;
+  border-radius: 5px;
+  height: 560px;
+  margin: 0 auto;
+  overflow: auto;
+  padding: 0;
+  width: 1200px;
+}
+#where-to-stay section h3 a {
+  color: #233059;
+}
+#where-to-stay section a img:hover,
+#where-to-stay section a div:hover,
+#where-to-stay div.aside-container:hover {
+  box-shadow: 4px 4px 4px rgba(12, 154, 242, 0.8);
+  transition: all 200ms ease-in;
+}
+#where-to-stay div.aside-container {
+  background: #a0eaf2;
+}
+#where-to-stay h4 {
+  color: #0c9af2;
+  text-decoration: none;
+}
+#where-to-stay h5 {
+  color: #0c9af2;
+}
+#where-to-stay aside p {
+  color: #233059;
+}
+#where-to-stay section a div {
+  background: white;
+  color: #233059;
+}
+#where-to-stay section a div p {
+  text-decoration: none;
+}
+
+/*  ----------  *****  WHERE TO EAT?  *****  ----------  */
+
+div.quarter-width {
+  height: 430px;
+  float: left;
+  margin: 20px 15px;
+  width: 260px;
+}
+#where-to-eat {
+  background: #e6e6e6;
+  border-radius: 5px;
+  height: 560px;
+  margin: 0 auto;
+  overflow: auto;
+  padding: 0;
+  width: 1200px;
+}
+#full-quarters {
+  padding-left: 20px;
+}
+#where-to-eat h3 {
+  margin: 18.73px auto 0px auto;
+  padding-left: 40px;
+}
+#where-to-eat h4 {
+  text-align: center;
+}
+#where-to-eat h4 a {
+  color: #233059;
+  text-decoration: none;
+}
+#where-to-eat h3 a {
+  color: #233059;
+  text-decoration: none;
+}
+
+#where-to-eat img {
+  border-radius: 5px;
+  height: 260px;
+  margin-bottom: 10px;
+  width: 260px;
+}
+#where-to-eat img:hover {
+  box-shadow: 4px 4px 4px rgba(230, 255, 63, 0.8);
+  transition: all 200ms ease-in;
+}
+#where-to-eat p {
+  background: #dff6f7;
+  border-radius: 5px;
+  box-shadow: 3px 3px 3px #e6ff3f;
+  font-size: 14px;
+  font-weight: 400;
+  height: 130px;
+  justify-content: center;
+  line-height: 1.5em;
+  padding: 15px 10px 0 10px;
+  text-align: justify;
+  width: 240px;
+}
+
+/*  ----------  *****  TRAVEL NOTICE - ALERT BANNER  *****  ----------  */
+
+.travel-notice {
+  background: #e6ff3f;
+  border-radius: 5px;
+  height: 55px;
+  overflow: auto;
+}
+.travel-notice button {
+  background: #233059;
+  border: 1px solid white;
+  border-radius: 15px;
+  color: #e6ff3f;
+  float: right;
+  margin: 6.5px 30px 0 0;
+  padding: 10px 15px;
+}
+
+.travel-notice button:hover {
+  background-image: linear-gradient(to top, #a0eaf2 0%, #0c9af2 100%);
+  border: 1px solid #233059;
+  box-shadow: 2px 2px 3px rgba(131, 132, 133, 0.8);
+  transition: all 200ms ease-in-out;
+}
+
+#notice {
+  float: left;
+  margin: 18px 0 0 30px;
+}
+#notice-1 {
+  font-weight: 700;
+}
+#notice-2 a {
+  color: #233059;
+  font-weight: 300;
+  text-decoration: none;
+}
+#notice-3 a {
+  color: #d90504;
+  font-weight: 700;
+  text-decoration: none;
+}
+#notice-2 a:hover,
+#notice-3 a:hover {
+  color: #730909;
+}
+
+/*  ----------  *****  FOOTER  *****  ----------  */
+
+.blue-font {
+  color: #0c9af2;
+  font-weight: 700;
+}
+.third-width {
+  float: left;
+  width: 385px;
+}
+.third-width button {
+  background: none;
+  border: none;
+  color: #e6ff3f;
+  outline: none;
+  padding: 0;
+}
+.third-width button:hover {
+  color: #0c9af2;
+  transition: all 200ms ease-in-out;
+}
+.third-width ul {
+  margin: 0;
+  padding: 0;
+}
+.third-width ul li {
+  display: inline-block;
+  list-style-type: none;
+  margin: 20px 30px 0 0;
+}
+#coder {
+  color: white;
+  font-size: 11px;
+  font-weight: 300;
+  margin-top: 55px;
+}
+#coder-name {
+  color: #e6ff3f;
+  font-size: 11px;
+  font-weight: 300;
+}
+#team-img {
+  padding: 15px 0 0 35px;
+}
+#were-here {
+  background: #233059;
+  border-radius: 5px;
+  height: 220px;
+  overflow: auto;
+  padding: 20px 20px 10px 20px;
+}
+#were-here #team-img {
+  height: 160px;
+  width: 230px;
+}
+#were-here h4 {
+  color: #e6ff3f;
+  font-size: 16px;
+  font-weight: 700;
+  margin: 0 auto;
+  padding: 0;
+}
+#were-here p {
+  color: white;
+  font-size: 14px;
+  font-weight: 300;
+  height: 70px;
+  margin: 14px auto 0 auto;
+}
+#were-here .pc-signature {
+  color: #e6ff3f;
+  font-family: "Major Mono Display", sans-serif;
+  font-size: 14px;
+  height: 20px;
+  margin-top: 25px;
+}
