@@ -374,7 +374,8 @@ div.quarter-width {
   font-weight: 300;
   margin-top: 55px;
 }
-#coder-name {
+#coder-name,
+#netlify-link {
   color: #e6ff3f;
   font-size: 11px;
   font-weight: 300;
